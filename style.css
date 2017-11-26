@@ -1,0 +1,183 @@
+
+
+html {
+    font-family: "Arial";
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* background: -webkit-linear-gradient(#0052cc, #99c2ff); */
+    background-image: url("day.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#searchimg {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+#searchimg:hover {
+
+    opacity: 0.8;
+}
+
+#text {
+    border-radius: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: "Arial";
+    float: left;
+    width: 83%;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0;
+    padding-left: 10px;
+    border: none;
+}
+
+.search-icon {
+    border-radius: 0px 10px 10px 0px;
+    width: 14.5%;
+    background-color: white;
+    height: 60px;
+    margin-top: 5px;
+    float: left;
+}
+
+.search {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 70px;
+    background-color: lightgrey;
+}
+
+.content {
+    overflow: hidden;
+    border-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.left {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.right {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.imagekader {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#image {
+    background-image: url("loader.gif");
+    background-position: 50% 50%;
+
+    border-radius: 200%;
+    border: 3px solid black;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.textkader {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+
+h1{
+    margin-top: 150px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    width: 100%;
+    font-size: 55px;
+}
+
+h2 {
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    width: 100%;
+    font-size: 85px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .search {
+        height: 50px;
+    }
+
+    #text{
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .search-icon {
+        width: 12%;
+        height: 40px;
+    }
+
+    #searchimg{
+        width: 30px;
+    }
+
+    .imagekader{
+        width: 100%;
+        height: 50%;
+    }
+
+    #image{
+        margin-top: 50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .textkader{
+        width: 100%;
+        height: 50%;
+    }
+
+    h1{
+        margin-top: 35px;
+        font-size: 40px;
+    }
+
+    h2 {
+        margin-top: 35px;
+        font-size: 50px;
+    }
+}
+
